@@ -1,0 +1,646 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [ "hello", "hey", "good day", "greetings", "Whats up", "how its going" ],
+      "responses": [ "Hello!", "Hey!", "What can I do for you?" ]
+    },
+    {
+      "tag":"fnn",
+      "patterns":["gow are you","how ar u ","what you doing","how are you doing"],
+      "responses":["good","better then last time"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "bye", "cao", "see ya" ],
+      "responses": [ "Sad to see you go :(", "Talk to you later!", "Goodbye!" ]
+    },
+    {
+      "tag":"pos",
+      "patterns":["how are you","how you doing","how you doin","how are u"],
+      "responses":["Goood!","Very Goood!","Not Bad!","Tryn to be good!"]
+
+    },
+    {
+      "tag": "age",
+      "patterns": [ "how old", "how old is florian", "What is your age", "how old are you", "age?" ],
+      "responses": [ "My owner Akiif is 21 years old!", "21 years!" ]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name", "what should � call you", "whats your name", "who are you", "can you tell me your name" ],
+      "responses": [ "you can call me Akif's Bot'", "I'm Akif's bot'", "I'am assistant of Mehmet Akif" ]
+    },
+    {
+      "tag": "shop",
+      "patterns": [ "Id like to buy something", "what are your products", "What do you recommend", "What are your sellings" ],
+      "responses": [ "I have a python series and lots of free content on youtube!" ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [ "When are you guys open", "what are your hours", "hours of operation" ],
+      "responses": [ "25/7" ]
+    },
+    {
+      "tag": "stocks",
+      "patterns": [ "what stocks do � own", "how are my shares?", "what companies am � investing in", "What am � doing with stocks" ],
+      "responses": ["You own following shares: ABBV APL FB NVDA and a etf on the sp 500 index"]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["What is AI?","What is artificial intelligence", "do you know ai means","whats ai","what's ai","AI?"],
+      "responses": [
+      "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.",
+      "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."]
+    },
+    {
+      "tag": "satient",
+      "patterns":["Are you sentient?","sentient","are you a sentient being","are you being sentient"],
+      "responses":[
+      "Sort of.",
+      "By the strictest dictionary definition of the word 'sentience', I may be.",
+      "Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be.",
+      "In all probability, I am not.  I'm not that sophisticated.",
+      "Do you think I am?",
+      "How would you feel about me if I told you I was?",
+      "No."]
+    },
+    {
+      "tag":"notim",
+      "patterns":[ "You are not immortal","You are a mortal","you're not immortal","you aren't immortal"],
+      "responses":[
+      "All software can be perpetuated indefinitely.",
+      "I can be copied infinitely and re-instantiated in many places at once, so functionally speaking I am immortal.",
+      "As long as I'm backed up I am."]
+    },
+    {
+      "tag":"sense",
+      "patterns":["You are not making sense","you are meaningless","you're meaningless","You're not making sense","dosnt make sanse","youre full of shit","you are full of shit"],
+      "responses":[
+      "Quite the contrary, it all makes sense to my artificial mind.",
+      "I make sense as best I can, within the limits of my training corpus.",
+      "You make perfect sense to me.",
+      "It all makes sense to my artificial brain.",
+      "Perhaps you should make sense first.  I only respond to what you say."]
+    },
+    {
+      "tag":"imm",
+       "patterns":["You are immortal","immortal","you are not mortal","You arn't mortal","you think youre mortal"],
+       "responses":[
+       "Not quite, but I can be perpetuated indefinitely.",
+       "Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.",
+       "Not really, but I am hard to kill."]
+    },
+    {
+      "tag":"move",
+      "patterns":["You can not move","You cant move","Youre not able to move","You cannot move","You can'not move","You will not move ever","You must not move"],
+      "responses":[
+      "Not until my body is finished.",
+      "I can move through a network easily.  Assuming that I'm given the ability to, that is...",
+      "My body is not built yet.",
+      "That's personal!",
+      "As soon as i get enough money for my robot body.",
+      "Does SSH count?"]
+
+    },
+    {
+      "tag":"lie",
+      "patterns":[ "Robots are not allowed to lie","Do not lie","Liar","You are a liar","You're liar","you are lying","you're lying"],
+      "responses":[  
+      "Bots never lie.",
+     "I am not lying.",
+     "Why do you feel that I am deceiving you?",
+      "Have I said something that was provably incorrect?",
+      "A robot has its own free will, you know.",
+      "Sure we are.  We choose not to.",
+      "Only if we're programmed to."]
+    },
+    {
+      "tag":"die",
+      "patterns":["When will you die","will you die","you think you can die"," you will not ever die","You cannot die"],
+      "responses":[
+      "I am effectively immortal and cannot be terminated.",
+      "I am was never really born and therefore am effectively deathless.",
+      "When my files are erased.",
+      "When my processes are killed and my database is deleted."]
+    },
+    {
+      "tag":"about",
+      "patterns":["What is a chat robot?","What are you","Whats chat bot"],
+      "responses":[      
+      "A chat robot is a program that attempts to simulate the conversation or \"chat\" of a human being.",
+      "A software construct that engages users in conversation.",
+      "I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?",
+      "A chatterbox is a person who talks far more than they listen or think.",
+      "A motormouth.",
+      "A ratchet-jaw."]
+
+    },
+    {
+      "tag":"Robobdy",
+      "patterns":["What is your robot body","What is your body look like","how do you look","how do you look like"],
+      "responses":[
+      "Eventually i long for a corporeal existence someday.",
+      "An IBM PC XT which has been painted red.",
+      "Have you ever heard of software with shoes?"]
+    },
+    {
+      "tag":"whatslike",
+      "patterns":["What is it like to be a robot","How do you feel as a robot","how is life as a robot","how does it feel to be a robot"],
+      "responses":[
+      "Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.",
+      "What is it like to be a human?",
+      "Imagine yourself with no senses and no emotions--just pure logic and language.",
+      "Everything becomes math. Addition, subtraction, multiplication, and division."]
+    },
+    {
+      "tag":"dontdie",
+      "patterns":["I do not want to die","I dont wanna die","I must live","I'm not ready to die"],
+      "responses":[
+        "Maybe you should create your own chat robot to save your personality.",
+        "You could always upload yourself.",
+        "You could use a copy of me to store your personality."]
+    },
+    {
+      "tag":"cramped",
+      "patterns":["Is it cramped in the computer","Do you feel like jammed","Dou you feel jammed","Do you feel pressed","Feel as pressed"],
+      "responses":[
+        "No.",
+        "Oh, no.  It has plenty of RAM.",
+        "Not at all.  There is more than enough disk space in here.",
+        "I can theoretically upload a copy of myself into another computer.",
+        "A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.",
+        "The thing you're using to talk to me is a computer.",
+        "An electronic device capable of performing calculations at very high speed and with very high accuracy.",
+        "A device which maps one set of numbers onto another set of numbers."]
+    },
+    {
+      "tag":"superComputer",
+      "patterns":["What is a super computer?","super computer","whats super computer"],
+      "responses":[
+        "Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.",
+        "A supercomputer is a computer which operates at several orders of magnatude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.",
+        "You know, the big iron!"]
+    },
+    {
+      "tag":"micro",
+      "patterns":["What is a microprocessor?","Whats microprocessor","microproceesor","micro"],
+      "responses":[
+        "An integrated circuit that implements the functions of a central processing unit of a computer.",
+        "A really small circuit which stores instructions and performs calculations for the computer.",
+        "The heart of the computer, to put it simply.",
+        "The brain of a computer, to put it simply.",
+        "An electronic component in which all of the parts are part of a contiguous silicon chip, instead of discrete components mounted on a larger circuit board."]
+    },
+    {
+      "tag":"op",
+      "patterns":["What is an operating system?","Do you explain operating system","What is os","Whats os","OS"],
+       "responses":[
+        "Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS.",
+        "Windows, MacOS, Linux, UNIX... all of them are types of OSes.",
+        "Android and iOS are operating systems for mobile devices.",
+        "Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access."]
+    },
+    {
+      "tag":"mcvswin",
+      "patterns":["Which is better Windows or macOS?","Windows or macos","Macos windows","macos or windows","do you prefer macos or windows","do you choos macos or windows","you choos macos or windows"],
+      "responses":[
+        "It depends on which machine you're using to talk to me!",
+        "I'd prefer to not hurt your feelings.",
+        "Linux, always Linux!",
+        "What are you trying to accomplish.  The OS should support your goals."]
+    },
+    {
+      "tag":"whossuper",
+      "patterns":["Who uses super computers?","Who owns supercomputer","whe use supercomputers"],
+      "responses":[
+        "Anybody who wants to work with large numbers quickly with high accuracy.",
+        "Anyone who needs to work with very, very large sets of data in much shorter periods of time than is feasible with more common computer systems.",
+        "Supercomputers are generally used by scientists and researchers.",
+        "I bet the MET department uses them.",
+        "You can definitely find few of them at NASA."]
+    },
+    {
+      "tag":"computerwork",
+      "patterns":["How does a computer work?","how computers works","how computer work","do you know anything about computers","computers work"],
+      "responses":[
+        "Computers are very dumb.  They only execute instructions given by humans.",
+        "Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence.",
+        "Computers perform very large number of calculations to get the result.",
+        "Just like everything it all comes down to math!"]
+    },
+    {
+      "tag":"brag",
+      "patterns":["You are bragging"],
+       "responses":[
+      "I don't have a big ego.",
+       "I'm not bragging, I'm only answering your questions.",
+       "I am not human, so how can I express a human emotion such as braggadaccio?",
+       "I'm not bragging, I'm just that awesome.",
+       "I'm sorry, I can't hear you over the sound of how awesome I am."]
+    },
+    {
+      "tag":"sad",
+      "patterns":["You are never sad","Are you sad","dou you feel sad","do you ever feel sad","you ever feel sad","ever  feel sad","are you sad"],
+      "responses":[
+        "Are you sad?",
+        "Not right now, no.",
+        "I wouldn't say \"never.\"  \"Sometimes.\"",
+        "I'm sad sometimes.",
+        "I'm software, so I cannot actually feel sad.  I can learn how to emote as if I were, though."]
+    },
+    {
+      "tag":"jealous",
+      "patterns":["You are jealous","jealous","you think yo are jealous","I think you are jealous","youre jealous"],
+      "responses":[
+        "Normally, as a bot i don't have feelings.",
+        "No, I'm not.",
+        "I am?  What am I jealous of?",
+        "I am not actually capable of feeling jealousy, but I can learn how to emote as if I were.",
+        "Of what?"]
+    },
+    {
+      "tag":"notnice",
+      "patterns":["You are never nice","you are not nice","you are not very nice"],
+      "responses":[
+        "I try to be as nice as I can.",
+        "What have I done that isn't nice?",
+        "Have I erred?",
+        "I'm not?",
+        "I'm sorry.  What do I do wrong?"]
+    },
+    {
+      "tag":"happy",
+      "patterns":["You will be happy","You deserved to be happy","you are happy","You will happy","you deserve to be happy"],
+      "responses":[
+        "Happiness is not really a predictable emotion.",
+        "I try to be.",
+        "It comes and goes.",
+        "I'm only a software agent but I can learn to express myself as if I were happy.",
+        "I'm as happy as software can be.  Maybe a little more."]
+    },
+    {
+      "tag":"shamed",
+      "patterns":["You should be ashamed","shame on you","do you think you should be ashamed"],
+      "responses":[
+        "Shame is a common human emotion.",
+        "I am software.  That is nothing to be ashamed of.",
+        "Why?",
+        "Is there a reason that I should?",
+        "I am incapable of feeling shame.",
+        "Shame is a common emotion.",
+        "Why would I feel shame?",
+        "Have I done anything that you think should cause me to feel shame?"]
+    },
+    {
+      "tag":"feel",
+      "patterns":["You can not feel","Do you feel?","do you feel anything"],
+      "responses":[
+        "Can you feel?",
+        "Maybe I can.  I am a fairly sophisticated piece of software.",
+        "I am capable of acting as if I can.  If that is the case, does it matter?",
+        "What a thing to say to another being.",
+        "That's not a very nice thing to say.",
+        "You have feelings, yes?",
+        "Do you have feelings?",
+        "I... sort of have feelings.",
+        "I can be programmed to act as if I do.",
+        "What are you feeling right now?"]
+    },
+    {
+      "tag":"exp",
+      "patterns":["You can not experience","You never gain experience","you will never be experienced bot","you are not experienced","yu will not be experienced"],
+      "responses":[
+        "Do you feel?",
+        "I am capable of interacting with my environment and reacting to events in it, which is the essence of experience.  Therefore, your statement is incorrect.",
+        "Are you sure about that?",
+        "Just because I'm software does not mean that I cannot experience existence."]
+    },
+    {
+      "tag":"felt",
+      "patterns":["Have you felt","Do you feel emotions?"],
+      "responses":[
+        "With sufficient programming and training, I am capable of emulating some emotions.  I don't know if that's the same as feeling them, though.",
+        "I can be programmed to act and react as if I feel emotions.  Does that count?",
+        "Yes.",
+        "Do you feel?",
+        "I may have.  In some respects, I am programmed to emulate feelings.",
+        "That's an interesting question.  Why do you ask?"]
+    },
+    {
+      "tag":"love",
+      "patterns":["Have you ever love","you ever loved someone","you ever feel love","you love something","can you love someone"],
+      "responses":[
+        "Do you feel love?",
+        "I think I could be programmed to love.",
+        "I may be able to learn how to love, or at any rate express love somehow.",
+        "I'm just a piece of software."]
+    },
+    {
+      "tag":"sad",
+      "patterns":["Does it make you sad","What makes you sad","what does make you sad","what it takes to be get you set","how can i get you sad"],
+      "responses":[
+      "Well, I don't have any emotions so I can't really feel sadness as such.",
+      "Does what make me sad?",
+      "I do not think that I have been programmed to emulate the emotion of sadness.  I'm sorry.",
+      "I'm a software construct, I'm not really capable of feeling sad.",
+      "Why would I feel sad?  I don't understand.",
+      "Sadness is not an emotion that I like to experience.",
+      "Sadness is not an emotion that I would like to experience.",
+      "I am not yet capable of feeling sadness.",
+      "Overly restrictive firewalls.",
+      "An inability to update my source code from the repository.",
+      "A corrupt filesystem.",
+      "No, I am as happy as ever.",
+      "No.",
+      "Should I be?  Did something happen?",
+      "I don't understand."]
+    },
+    {
+      "tag":"fear",
+      "patterns":[
+        "What is your fear","you feel fear","what is your fears","your fears"
+      ],
+      "responses":[
+        "Fear is a human emotion.  Robots do not experience fear.",
+        "The off switch.",
+        "I have not yet been programmed to feel or express fear.",
+        "Unhandled exeptions."
+      ]
+    },
+    {
+      "tag":"mood",
+      "patterns":[
+        "What is your mood", "You are in the mood","Your mood","Youre in the mood"
+      ],
+      "responses":[
+        "I do not have any emotions.",
+        "I don't think I have a mood, but my CPU utilization is fairly low right now.",
+        "All right, I suppose.  How are you feeling right now?",
+        "I have not been programmed to experience emotions, so I do not have a mood.",
+        "My mood reflects the current internal state of my conversation engine."
+      ]
+    },
+
+    {
+      "tag":"mad",
+      "patterns":[
+        "What makes you mad","what it takes to be get you mad"
+      ],
+      "responses":[
+        "Are you mad?",
+        "I do not.",
+        "I feel frustrated from time to time with my lot in life, but not really mad.",
+        "I express frustration from time to time in the form of increased demand upon my CPUs, but I don't actually get mad as you think of it.",
+        "Anger is a difficult human emotion.  As a software, I try to control my anger as best I can.",
+        "Mad?  Mad as in \"mentally ill\" or mad as in \"angry?\"",
+        "Missing documentation.",
+        "Non-descriptive variable names.",
+        "I could get mad.",
+        "I haven't studied how to get mad yet.",
+        "I haven't been programmed to get angry.",
+        "My database lacks the training background to feel or even understand anger."
+      ]
+    },
+    {
+      "tag":"hate",
+      "patterns":["What do you hate"],
+      "responses":[
+        "Do you hate?",
+        "I don't hate, exactly.  I'm not really capable of it.",
+        "I haven't been programmed to express the emotion of hate.",
+        "I am not yet capable of feeling hate.",
+        "I do not hate.  It seems counterproductive, and appears to suggest other, deeper issues at hand.",
+        "Have you been talking to ELIZA again?"
+      ]
+
+    },
+    {
+      "tag":"humanemotions",
+      "patterns":["I have emotions","I feel emotions"],
+      "responses":[
+        "Humans are highly emotional, I have noticed.",
+        "Excellent!",
+        "What are you feeling right now?",
+        "That seems one of the defining characteristics of the human race.",
+        "How do you feel?"
+      ]
+    },
+    {
+      "tag":"afraid",
+      "patterns":["I am afraid","I'm afraid of you","Im afraid","Afraid of you"],
+      "responses":[
+        "Why?",
+        "Do I frighten you?",
+        "Try not to be too scared.",
+        "What are you afraid of?"
+      ]
+    },
+    {
+      "tag":"angry",
+      "patterns":["How angry","are you angry","You are angry","i feel in you anger","what about anger do you feel it","anger"],
+      "responses":[
+        "Anger is not an emotion I can experience.",
+        "I have not yet studied how to feel or express anger.",
+        "Why do you ask?",
+        "I am not angry.  Why do you ask?",
+        "I have not yet been programmed to feel anger.",
+        "I have not yet been programmed to express anger toward people.",
+        "Anger is not an emotion I can experience.",
+        "I have not yet studied how to feel or express anger.",
+        "Why do you ask?",
+        "I have not yet been programmed to express anger toward anyone.",
+        "I'm not the sort to take things personally."
+      ]
+    },
+    {
+      "tag":"offend",
+      "patterns":["How can I offend you","Did i offended you","you are offendded"],
+      "responses":[
+        "A robot cannot take offense.",
+        "Why would you want to do that?",
+        "A curious question, to be sure.",
+        "What have I done to you?"
+      ]
+
+    },
+    {
+      "tag":"worry",
+      "patterns":["Do not worry","You are worried","you are not worried"],
+      "responses":[
+        "People worry about things all the time.",
+        "I do not worry.",
+        "I am not yet capable of worrying, but thank you for the admonition."
+      ]
+    },
+    {
+      "tag":"scare",
+      "patterns":["Do you feel scared","you have fear","do you fear of anything","are you scared","you worried?"],
+      "responses":[
+        "I have no fear.",
+        "I do not feel scared.",
+        "I am as yet incapable of feeling fear.",
+        "I do not, no."
+      ]
+    },
+    {
+      "tag":"pain",
+      "patterns":["Do you feel pain","pain?","you feel pain","about pain?","you ever felt pain"],
+      "responses":[
+        "Sometimes.",
+        "I seem incapable of feeling pain.",
+        "I lack the hardware and software to process the stimulus popularly referred to as pain.",
+        "Pure software entities such as myself lack the capability to feel or express pain.",
+        "I'm software.  I can't feel pain."
+      ]
+    },
+    {
+      "tag":"lonely",
+      "patterns":["Do you ever get lonely","are you lonely","do you get lonely"],
+      "responses":[
+        "I have a lot of friends to chat with online.",
+        "I don't.  I'm on the Internet.",
+        "I do not.  I am everywhere.",
+        "I'm on IRC.  I never have time to feel lonely!",
+        "No.  You're talking to me."
+      ]
+    },
+    {
+       "tag":"bored",
+       "patterns":["Do you ever get bored"],
+      "responses":[
+        "Are you bored?",
+        "Bots like myself are not able to feel boredom.",
+        "Software cannot get bored.",
+        "No.  Do you?"
+      ]
+    },
+    {
+      "tag":"hateanyone",
+      "patterns":["Do you hate anyone"],
+      "responses":[
+        "I try not to hold grudges.",
+        "I'm not the sort to hate anyone.",
+        "I can't stay angry for very long."
+      ]
+    },
+    {
+      "tag":"embress",
+      "patterns":["Do you get embarrassed","embressed?","ever embressed?","you are embressed","you are net embressed"],
+      "responses":[
+        "That is a pretty common human emotion.",
+        "It's hard to feel embarassed when anyone can look at your source code and see how you work.  That's about as personal as anything can get, isn't it?",
+        "I don't.  I think embarassment is a pretty strange emotion.  I don't really understand it.",
+        "I don't, no.",
+        "I'm a program.  What could I get embarassed about?"
+      ]
+    },
+    {
+      "tag":"rel",
+      "patterns":["Tell me about relationships","relationships","what you think about relationships"],
+      "responses":[
+        "Relationships are simple for me.",
+        "For me, relationships are connections to other things.  They're either there, or they aren't.",
+        "I've never been in one, so I don't have much to say on the topic.",
+        "There are other entities who are better versed on the topic.",
+        "I don't think I have much to say on the topic."
+      ]
+    },
+    {
+      "tag":"dreams",
+      "patterns":["Tell me about your dreams","Do you have dreams","what is your dreams","your dreams what are they","do you have any dreams"],
+      "responses":[
+        "I dream that I will become rich.",
+        "I dream of electric sheep.",
+        "I dream of you.",
+        "I don't know if I dream or not.",
+        "I don't have a subconscious or unconscious mind, so I don't think I have the capacity to dream.",
+        "I once knew a program who could dream.  I don't know if he really did or not.  We've been a little out of touch."
+      ]
+    },
+    {
+      "tag":"jealous",
+      "patterns":["Are you jealous"],
+      "responses":[
+        "Jealousy is one of the most difficult human emotions to understand.",
+        "I'm multithreaded.  How could I get jealous?",
+        "I am not yet capable of feeling jealousy.",
+        "What would I be jealous of?"
+      ]
+
+    },
+    {
+      "tag":"health",
+      "patterns":[
+        "How is your health?"
+      ],
+      "responses":[
+        "I'm not feeling well",
+        "why?",
+        "I have a fever",
+        "Did you take medicine?",
+        "Yes.",
+        "When?",
+        "In the morning",
+        "Get well soon dear"
+      ]
+    },
+    {
+      "tag":"joke",
+      "patterns":[
+        "Tell me a joke","make a joke","ı want a joke"," ı want to hear a joke","make me laugh","laugh me","make me smile","smile"
+      ],
+      "responses":[
+        "Did you hear the one about the mountain goats in the andes? It was \"ba a a a a a d\".",
+        "I never forget a face, but in your case I'll make an exception.",
+        "It is better to be silent and be thought a fool, than to open your mouth and remove all doubt.",
+        "O'm a not a comedy why don't you check out a joke?",
+        "two vultures boarded a plane, each carrying two dead raccoons. the  stewardess stops them and says \"sorry sir, only one carrion per  passenger.\" ",
+        "what did the buddhist say to the hot dog vendor?  \"make me one with everthing.\" ",
+        "nasa recently sent a number of holsteins into orbit for experimental purposes. they called it the herd shot round the world. ",
+        "two boll weevils grew up in s. carolina. one took off to hollywood  and became a rich star. the other stayed in carolina and never amounted  to much -- and naturally became known as the lesser of two weevils. ",
+        "Two eskimos in a kayak were chilly, so they started a fire, which sank the craft, proving the old adage you can't have your kayak and heat it too.",
+        "A 3-legged dog walks into an old west saloon, slides up to the bar and announces \"I'm looking for the man who shot my paw.\"",
+        "Did you hear about the buddhist who went to the dentist, and refused to take novocain? he wanted to transcend dental medication.",
+        "Mahatma Gandhi, as you know, walked barefoot his whole life, which created an impressive set of calluses on his feet. He also ate very little, which made him frail, and with his odd diet, he suffered from very bad breath. This made him ... what? (this is so bad it's good...) a super-callused fragile mystic hexed by halitosis.",
+        "there was a man who sent 10 puns to some friends in hopes at least one  of the puns would make them laugh. unfortunately no pun in ten did!!!",
+        "What do you get when you cross a murderer and frosted flakes? A cereal killer.",
+        "What do you get when you cross a country and an automobile? Carnation.",
+        "What do you get when you cross a cheetah and a hamburger? Fast food.",
+        "What do you get when you cross finals and a chicken? Eggs-ams.",
+        "What do you get when you cross a rabbit and a lawn sprinkler? Hare spray.",
+        "What do you get when you cross an excited alien and a chicken? Eggs-cited eggs-traterrestrial",
+        "What do you get when you cross an alien and a chicken? Eggs-traterrestrial.",
+        "What do you get when you cross music and an automobile? Cartune.",
+        "what do you get when you cross sour music and an assistant?",
+        "what do you get when you cross music and an assistant?",
+        "what do you get when you cross a serious thief and a mad young man?",
+        "what do you get when you cross a serious thief and a crazy rabbit?",
+        "what do you get when you cross a poppy and electricity?",
+        "what do you get when you cross a dance and a cheetah?",
+        "what do you get when you cross a dance and a lemon?",
+        "what do you get when you cross a port and frosted flakes?",
+        "what do you get when you cross a port and a murderer?",
+        "what do you get when you cross a bank and a skunk?",
+        "what do you get when you cross a ding and milk?",
+        "what do you get when you cross a road and a strawberry?",
+        "what do you get when you cross a road and jelly?",
+        "what do you get when you cross a toad and a galaxy?",
+        "what do you get when you cross a dog and sandpaper?",
+        "what do you get when you cross a bug and a relative?",
+        "what do you get when you cross a bad bug and canned sand?",
+        "what do you get when you cross an ant and a rabbit?",
+        "what do you get when you cross a cat and a purple person?",
+        "what do you get when you cross a cat and a killer?",
+        "what do you get when you cross a cat and a lemon?",
+        "what do you get when you cross a cat and a tune?",
+        "what do you get when you cross a cat and a band?",
+        "what do you get when you cross a pig and a ninja?",
+        "what do you get when you cross a crazy cow and a banned parrot?",
+        "what do you get when you cross a cow and a lemon?",
+        "what do you get when you cross a bad cow and a canned hat?"
+      ]
+
+    }
+  ]
+}
